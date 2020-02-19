@@ -20,15 +20,15 @@
 
     ;
     ;; Money Unit fee to upload textures, animations etc.  Default is 0.
-    PriceUpload = 0
+    PriceUpload = 10
 
     ;; Mesh upload factors
-    ;MeshModelUploadCostFactor = 0.0
-    ;MeshModelUploadTextureCostFactor = 1.0
-    ;MeshModelMinCostFactor = 0.0
+    MeshModelUploadCostFactor = 1.0
+    MeshModelUploadTextureCostFactor = 1.0
+    MeshModelMinCostFactor = 1.0
 
     ;; Money Unit fee to create groups.  Default is 0.
-    PriceGroupCreate = 0
+    PriceGroupCreate = 10
 
 	;
     ;; Avatar Class for HG Avatar
