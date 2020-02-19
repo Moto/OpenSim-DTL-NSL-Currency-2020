@@ -26,7 +26,7 @@ directory structure
 
     binary = binary executable files if you cannot or do not want to compile yourself.
     helper-php = helper files needed (helper.php, currency.php, landtool.php).
-    source = source files needed to compile.
+    source = Source files for the OpenSimulator that are required for compilation.
 
 
 # Download
