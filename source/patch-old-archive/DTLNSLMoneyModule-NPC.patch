@@ -1,0 +1,26 @@
+---------------------------------------------------------------------
+--- DTLNSLMoneyModule.cs.ori    2020-01-16 11:40:31.320753823 +0100
++++ DTLNSLMoneyModule.cs        2020-01-16 11:39:54.717394571 +0100
+@@ -1638,8 +1638,10 @@
+                                                avatarType = (int)AvatarType.NPC_AVATAR;
+                                        }
+                                        //
+-                                       if ((agent.teleportFlags & (uint)Constants.TeleportFlags.ViaHGLogin)!=0 || String.IsNullOrEmpty(userName)) {
+-                                               avatarType = (int)AvatarType.HG_AVATAR;
++                                       if (!isNpc) {
++                                               if ((agent.teleportFlags & (uint)Constants.TeleportFlags.ViaHGLogin)!=0 || String.IsNullOrEmpty(userName)) {
++                                                       avatarType = (int)AvatarType.HG_AVATAR;
++                                               }
+                                        }
+                                }
+                                if (String.IsNullOrEmpty(userName)) {
+@@ -1648,7 +1650,7 @@
+                                
+                                //
+                                avatarClass = avatarType;
+-                               if (avatarType==(int)AvatarType.NPC_AVATAR) return false;
++                               if (avatarType==(int)AvatarType.NPC_AVATAR) return true;
+                                if (avatarType==(int)AvatarType.HG_AVATAR)  avatarClass = m_hg_avatarClass;
+
+                                //
+---------------------------------------------------------------------

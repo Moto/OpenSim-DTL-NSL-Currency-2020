@@ -1,0 +1,59 @@
+command-script <script> - Run a command script from file
+config get [<section>] [<key>] - Synonym for config show
+config save <path> - Save current configuration to a file at the given path
+config set <section> <key> <value> - Set a config option.  In most cases this is not useful since changed parameters are not dynamically reloaded.  Neither do changed parameters persist - you will have to change a config file manually and restart.
+config show [<section>] [<key>] - Show config information
+debug jobengine <start|stop|status|log> - Start, stop, get status or set logging level of the job engine.
+debug threadpool level 0..3 - Turn on logging of activity in the main thread pool.
+debug threadpool set worker|iocp min|max <n> - Set threadpool parameters.  For debug purposes.
+debug threadpool status - Show current debug threadpool parameters.
+force gc - Manually invoke runtime garbage collection.  For debugging purposes
+get log level - Get the current console logging level
+help [<item>] - Display help on a particular command or on a list of commands in a category
+quit - Quit the application
+set log level <level> - Set the console logging level for this session.
+show checks - Show checks configured for this server
+show info - Show general information about the server
+show stats [list|all|(<category>[.<container>])+ - Alias for 'stats show' command
+show threadpool calls complete - Show details about threadpool calls that have been completed.
+show threads - Show thread status
+show uptime - Show server uptime
+show version - Show server version
+shutdown - Quit the application
+stats record start|stop - Control whether stats are being regularly recorded to a separate file.
+stats save <path> - Save stats snapshot to a file.  If the file already exists, then the report is appended.
+stats show [list|all|(<category>[.<container>])+ - Show statistical information for this server
+threads abort <thread-id> - Abort a managed thread.  Use "show threads" to find possible threads.
+threads show - Show thread status.  Synonym for "show threads"
+
+
+
+
+
+command-script <script> - Führt ein Befehlsskript aus einer Datei aus
+config get [<section>] [<key>] - Synonym für config show
+config save <Pfad> - Speichert die aktuelle Konfiguration in einer Datei unter dem angegebenen Pfad
+config set <section> <key> <value> - Legt eine Konfigurationsoption fest. In den meisten Fällen ist dies nicht sinnvoll, da geänderte Parameter nicht dynamisch neu geladen werden. Die geänderten Parameter bleiben auch nicht erhalten - Sie müssen eine Konfigurationsdatei manuell ändern und neu starten.
+config show [<section>] [<key>] - Konfigurationsinformationen anzeigen
+debug jobengine <start|stop|status|log> - Startet, stoppt, ruft den Status ab oder legt die Protokollierungsstufe der Job-Engine fest.
+debug threadpool level 0..3 - Aktiviert die Protokollierung von Aktivitäten im Haupt-Threadpool.
+debug threadpool set worker | iocp min | max <n> - Threadpool-Parameter festlegen. Für Debug-Zwecke.
+debug threadpool status - Zeigt die aktuellen Debug-Threadpool-Parameter an.
+force gc - Ruft die Garbage Collection zur Laufzeit manuell auf. Zum Debuggen
+get log level - Ruft die aktuelle Konsolenprotokollierungsstufe ab
+help [<item>] - Zeigt die Hilfe zu einem bestimmten Befehl oder einer Liste von Befehlen in einer Kategorie an
+quit - Beendet die Anwendung
+set log level <level> - Legt die Konsolenprotokollierungsstufe für diese Sitzung fest.
+show checks - Zeigt die für diesen Server konfigurierten Prüfungen an
+show info - Zeigt allgemeine Informationen zum Server an
+show stats [list|all|(<category>[.<container>])+ - Alias ​​für den Befehl 'stats show'
+show threadpool calls complete - Zeigt Details zu abgeschlossenen Threadpool-Aufrufen an.
+show threads - Threadstatus anzeigen
+show uptime - Zeigt die Betriebszeit des Servers an
+show version - Zeigt die Serverversion an
+shutdown - Beenden Sie die Anwendung
+stats record start|stop - Legt fest, ob Statistiken regelmäßig in einer separaten Datei aufgezeichnet werden.
+stats save <Pfad> - Speichert den Statistik-Snapshot in einer Datei. Wenn die Datei bereits vorhanden ist, wird der Bericht angehängt.
+stats show [list|all|(<category>[.<container>])+ - Zeigt statistische Informationen für diesen Server an
+threads abort <thread-id> - Bricht einen verwalteten Thread ab. Verwenden Sie "show threads", um mögliche Themen zu finden.
+threads show - Threadstatus anzeigen. Synonym für "show threads"
