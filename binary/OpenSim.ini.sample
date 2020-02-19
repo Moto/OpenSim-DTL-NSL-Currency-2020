@@ -5,6 +5,8 @@
 
     ;CurrencyServer = "" ;;  ex.) "https://jogrid.net:8008/"  Default is ""
     EconomyModule = DTLNSLMoneyModule
+	CurrencyServer = "${Const|BaseURL}:8008/"
+	UserServer = "${Const|BaseURL}:8002/"
 
     ;
 	;; CA
