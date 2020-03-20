@@ -1,4 +1,4 @@
-# Compiled with Windows 10 64bit - OpenSim 0.9.2 - .net 4_6 - Visual Studio 2019
+# Compiled with Windows 10 64bit - OpenSim 0.9.2.165 - .net 4_6 - Visual Studio 2019
 
 ## Caution! This is the first test.
 
