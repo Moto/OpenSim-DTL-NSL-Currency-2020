@@ -9,7 +9,7 @@ Dieses Geld System ist nur zur unterhaltung geeignet und ist nicht sicher.
 
 Verzeichnisstruktur
 
-    binary = Binäre ausführbare Dateien falls sie nicht selber kompilieren können oder wollen.
+    binary = Ubuntu 19 Binäre ausführbare Dateien falls sie nicht selber kompilieren können oder wollen.
     helper-php = helper Dateien die benötigt werden (helper.php, currency.php, landtool.php).
     source = Quelldateien für den OpenSimulator die zum kompilieren benötigt werden.
 
@@ -24,7 +24,7 @@ This money system is for entertainment purposes only and is not secure.
 
 directory structure
 
-    binary = binary executable files if you cannot or do not want to compile yourself.
+    binary = Ubuntu 19 binary executable files if you cannot or do not want to compile yourself.
     helper-php = helper files needed (helper.php, currency.php, landtool.php).
     source = Source files for the OpenSimulator that are required for compilation.
 
