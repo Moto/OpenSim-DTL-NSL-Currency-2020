@@ -7,3 +7,5 @@ Copy all to /opensim/bin
 Edit MoneyServer.ini with your data.
 
 Add OpenSim.ini.sample to the OpenSim.ini.
+
+![screenshot](https://raw.githubusercontent.com/BigManzai/OpenSim-DTL-NSL-Currency-2020/master/binary/Windows/MoneyServerWin.jpg)
