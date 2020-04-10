@@ -1,5 +1,6 @@
 # OpenSim-DTL-NSL-Currency-2020
 DTL/NSL MoneyServer 2020 für OpenSim 0.9.2.0
+![.NET Core](https://github.com/Moto/OpenSim-DTL-NSL-Currency-2020/workflows/.NET%20Core/badge.svg)
 
 NPC und Hypergrid Avatare funktioniert auch mit dieser DTL-NSL-Currency Version.
 
